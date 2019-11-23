@@ -6,4 +6,18 @@
     text-align: center;
     background: url("../img/model-1.jpg");
     background-size: cover;
+    
+
+
+    &__name {
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+        border-bottom: 2px snow;
+
+        &--last {
+            color: $secondary-color;
+            font-weight: 700;
+        }
+    }
 }
