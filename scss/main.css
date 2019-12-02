@@ -50,6 +50,7 @@
   background: #fff;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  /* turns burger btn into X */
 }
 
 .menu-btn__burger::before {
@@ -78,6 +79,17 @@
   -webkit-transform: rotate(720deg);
           transform: rotate(720deg);
   background: transparent;
+}
+
+.menu-btn__burger.open::before {
+  -webkit-transform: rotate(45deg) translate(5px, 8px);
+          transform: rotate(45deg) translate(5px, 8px);
+}
+
+.menu-btn__burger.open::after {
+  width: 28px;
+  -webkit-transform: rotate(-45deg) translate(3px, -7px);
+          transform: rotate(-45deg) translate(3px, -7px);
 }
 
 body {
