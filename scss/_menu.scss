@@ -38,6 +38,7 @@
         }
         
         /* turns burger btn into X */
+        /* use transform: translate function */
         
         &.open {
             transform: rotate(720deg);
@@ -53,4 +54,36 @@
             }
         }
     } 
+}
+/* Debug This */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    opacity: 0.98;
+    visibility: hidden;
+/* if its open*/
+    &.open {
+            visibility: visible;
+
+    }
+    .menu-nav {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+        background: $primary-color;
+        list-style-type: none;
+        padding-right: 1rem;
+        transform: translateY(-100%);
+        @include transition-ease;
+
+        &.open {
+            transform: translateY(0);
+        }
+    }
 }
