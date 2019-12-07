@@ -51,6 +51,7 @@
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   /* turns burger btn into X */
+  /* use transform: translate function */
 }
 
 .menu-btn__burger::before {
@@ -92,6 +93,7 @@
           transform: rotate(-45deg) translate(3px, -7px);
 }
 
+/* Debug This */
 .nav {
   position: fixed;
   top: 0;
@@ -136,6 +138,19 @@
           transform: translateY(0);
 }
 
+.logo {
+  position: absolute;
+  z-index: 1;
+  left: 1rem;
+  top: 1rem;
+  height: 8px;
+  width: 8px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Added logo */
 body {
   background: #272727;
   color: #fff;
