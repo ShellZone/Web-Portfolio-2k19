@@ -1,11 +1,13 @@
-.logo {
+#logo {
     position: absolute;
     z-index: 1;
     left: 1rem;
     top: 1rem;
-    height: 8px;
-    width: 8px;
+    height: 80px;
+    width: 80px;
     cursor: pointer;
+    
     @include transition-ease;
 }
 /* Added logo */
+/* hi wise */
