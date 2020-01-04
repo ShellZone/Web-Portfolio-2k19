@@ -69,6 +69,7 @@
             visibility: visible;
 
     }
+    /* Menu items css and animation*/
     .menu-nav {
         display: flex;
         flex-flow: column wrap;
@@ -93,10 +94,23 @@
         &.open {
             transform: translateX(0);
         }
+
         &.active > a {
             color: green;
         }
-        }
-
     }
+    
+    &__link {
+        display: inline-block;
+        font-size: 2rem;
+        text-transform: uppercase;
+        padding: 2rem 0;
+        font-weight: 300;
+        @include transition-ease;
+
+        &:hover {
+            color: greenyellow;
+        }
+    }
+ }    
 }

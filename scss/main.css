@@ -102,6 +102,7 @@
   opacity: 0.98;
   visibility: hidden;
   /* if its open*/
+  /* Menu items css and animation*/
 }
 
 .nav.open {
@@ -152,6 +153,20 @@
 
 .nav .menu-nav__item.active > a {
   color: green;
+}
+
+.nav .menu-nav__link {
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  font-weight: 300;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav .menu-nav__link:hover {
+  color: greenyellow;
 }
 
 #logo {
