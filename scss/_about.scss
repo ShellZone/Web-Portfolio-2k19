@@ -16,7 +16,7 @@
     }
 
     &__bio {
-        width: %80;
+        width: 80%;
         text-align: center;
 
         .text-secondary {
@@ -31,6 +31,22 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 2rem;
+
+        &__job {
+            background: lighten($primary-color, $amount: 10%);
+            padding: 0.5rem;
+            border-top: 5px solid $secondary-color;
+
+            h2, h3 {
+                margin: 0.5rem, 0;
+
+            }
+            h6 {
+                margin: rem 0.3rem 0;
+            }
+        }
     }
+
+
 }
 

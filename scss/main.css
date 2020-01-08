@@ -233,7 +233,7 @@
 }
 
 .about__bio {
-  width: % 80;
+  width: 80%;
   text-align: center;
 }
 
@@ -249,6 +249,20 @@
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 2rem;
+}
+
+.about .jobs__job {
+  background: #414141;
+  padding: 0.5rem;
+  border-top: 5px solid green;
+}
+
+.about .jobs__job h2, .about .jobs__job h3 {
+  margin: 0.5rem, 0;
+}
+
+.about .jobs__job h6 {
+  margin: rem 0.3rem 0;
 }
 
 body {
