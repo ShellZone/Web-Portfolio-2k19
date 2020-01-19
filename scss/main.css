@@ -356,6 +356,7 @@
 }
 
 .projects__btn {
+  position: absolute;
   opacity: 0;
   color: #fff;
   -webkit-transition: all 0.5s ease-in-out;
@@ -379,6 +380,21 @@
 .projects footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+.projects-stacks {
+  margin: 0%;
+  padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  left: 850px;
+  top: 10px;
 }
 
 .contact {
