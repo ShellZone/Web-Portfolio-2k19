@@ -392,9 +392,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  position: relative;
+  position: absolute;
   left: 850px;
-  top: 10px;
+  top: 379px;
+}
+
+.flexslider 2 {
+  position: absolute;
+  right: -90px;
+  top: 15px;
 }
 
 .contact {
