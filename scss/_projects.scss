@@ -103,11 +103,21 @@
   .projects-stacks {
     margin: 0%;
     padding: 0%;
-    
     display: flex;
     flex-direction: row;
     position: absolute;
-    left: 850px;
-    top: 379px;
     
+    opacity: 50%;
+    margin-bottom: auto;
+    margin-left: auto;
+    align-items: center;
+    left: 43%;
+    position: fixed;
+    bottom: 10px;
+    @include transition-ease;
+
+    
+      &::hover { opacity:50%;
+    
+    }
   }

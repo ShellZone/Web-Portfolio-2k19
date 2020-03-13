@@ -393,8 +393,21 @@
       -ms-flex-direction: row;
           flex-direction: row;
   position: absolute;
-  left: 850px;
-  top: 379px;
+  opacity: 50%;
+  margin-bottom: auto;
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 43%;
+  position: fixed;
+  bottom: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.projects-stacks::hover {
+  opacity: 50%;
 }
 
 .contact {
