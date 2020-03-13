@@ -114,10 +114,12 @@
     left: 43%;
     position: fixed;
     bottom: 10px;
-    @include transition-ease;
-
-    
-      &::hover { opacity:50%;
+   
     
     }
-  }
+  
+.Slides , .Slides2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
