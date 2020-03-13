@@ -454,6 +454,17 @@
   margin-top: 2rem;
 }
 
+.contact__list {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  display: flex;
+}
+
 @media screen and (min-width: 768px) {
   .menu-btn {
     visibility: hidden;
