@@ -26,7 +26,7 @@
 }
 
 .home__name--last {
-  color: green;
+  color: #085f00;
   font-weight: 700;
 }
 
@@ -255,7 +255,7 @@
 .about .jobs__job {
   background: #414141;
   padding: 0.5rem;
-  border-top: 5px solid green;
+  border-top: 5px solid #085f00;
 }
 
 .about .jobs__job h2, .about .jobs__job h3 {
@@ -308,7 +308,7 @@
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid green;
+  border-bottom: 5px solid #085f00;
   overflow: hidden;
   cursor: pointer;
 }
@@ -324,7 +324,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: green;
+  background: #085f00;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -541,7 +541,7 @@ a {
 }
 
 .text-secondary {
-  color: green;
+  color: #085f00;
 }
 
 header {
@@ -569,7 +569,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: green;
+  color: #085f00;
 }
 
 footer {
